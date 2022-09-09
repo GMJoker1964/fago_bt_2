@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    margin: 0;
+}
+
+div{
+    margin: 0;
+}
+
+:root{
+    --mau_chu_dao_1: #2881BB;
+    --mau_chu_dao_trang: #ffffff;
+    --mau_chu_dao_3: #0054a0;
+    --mau_chu_dao_4: #333;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headline{
+    font-size: 35px;
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
+}
+
+.menu-text{
+    color: #ffffff;
+}
+
+.headline-text{
+    color: #2881BB;
+}
+
+.btn-link:hover{
+    color: #ffffff;
+}
+
+.btn-link:focus{
+    color: #ffffff;
+}
+
+.text{
+    font-size: 64%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.none-decoration{
+    text-decoration: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.direction-row{
+    flex-direction: row;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.text-14{
+    font-size: 14px;
+    width: 100%;
+}
+
+.text-16{
+    font-size: 16px;
+    width: 100%;
+}
+
+.img-align{
+    width: 50%;
+    margin: auto;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.padding-auto{
+    padding: auto;
+}
+
+.z-index-0{
+    position: absolute;
+    z-index: 0;
+}
+
+.square-box{
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.square-box > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bdRight{
+    border-right: 1px solid #cee2f0;
+}
+
+.bdBottom{
+    border-bottom: 1px solid #cee2f0;
+}
+
+.container-dx{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-column{
+    flex-direction: row;
+}
+
+/* header */
+
+    #menuSapp{
+        background-image: url("/images/5__khoa_hoc_cfa_online__1_/u156.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        width: 100%;
+    }
+
+    .navbar-brand{
+        width: 8%;
+    }
+
+    .sappTitle{
+        width: 35%;
+    }
+
+    .sappVideo{
+        width: 55%;
+    }
+
+    .rwd-media{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        left: 62%;
+        top: 42%;
+        transform: translate(-50%, -50%);
+    }
+
+    .rwd-media iframe{
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+    }
+
+    .navbar-nav{
+        float: left;
+    }
+
+    #sappFeature {
+        background-color: #F7F8F9;
+        margin: 0 auto 3rem;
+    }
+
+    
+
+    .sappFeatureItem{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .sappFeatureButton{
+        text-align: center;
+    }
+
+    
+
+   /* sappIntro */
+
+   .sappIntro{
+        text-align: center;
+   }
+
+   .sappContentItem{
+        width: 33.3%;
+   }
+
+   .sappCertificateContent{
+        margin: auto;
+   }
+
+   .impressiveNumberItem{
+        width: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 2rem;
+   }
+
+   .jobOpportunityItem{
+        border: 1px solid none;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 20%);
+        border-radius: 12px;
+        width: 40%;
+   }
+
+    .sappInfo{
+        background-image: url("https://color-hex.org/colors/f7f8f9.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sappInfo{
+        border: 2px solid none;
+    }
+
+    .sappInfoContent{
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+
+    #slide-1{
+        width: 10%;
+        background-color: #2881BB;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+
+    .side1Item{
+       width: 100%;
+       box-shadow: 5px 5px 5px rgb(0 0 0 / 22%);
+       
+    }
+
+    #slide-2{
+        width: 45%;
+    }
+    
+    #slide-3{
+        width: 45%;
+        position: relative;
+    }
+
+    .slide3Video{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 65%;
+        top: 56%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .slide3Video > iframe{
+        width: 80%;
+        height: 65%;
+    }
+
+    .sappStaff{
+        background-color: #F5F8FA;
+    }
+
+
+
+    .sappFeedback{
+        background-image: url("/images/5__khoa_hoc_cfa_online__1_/u159.png");
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .blackBackground{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(16,43,78,.87);
+        z-index: 0;
+    }
+   .container-fix{
+        position: relative;
+        z-index: 3;
+   }
+
+   .sappFooter{
+        background-color: #000000;
+   }
+
+   /* sappPrice */
+
+   .sappPriceItem{
+        box-shadow: 5px 5px 8px rgb(0 0 0 / 20%);
+        width: 25%;
+        margin: 2rem auto 2rem;
+   }
+
+   .itemHeadline{
+        position: relative;
+        width: 100%;
+   }
+
+   .text2{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+   }
+
+
+   .sappInput{
+        background-image: url("./images/5__khoa_hoc_cfa_online__1_/u157.jpg");
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+   }
+
+   .grayScreen{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(242, 242, 242, 0.7);
+        z-index: 0;
+    }
+
+    .inputBox{
+        background-color: #2881BB;
+        border: 2px solid #2881BB;
+        width: 50%;
+        margin: auto;
+    }
+
+    #footer1{
+        width: 25%;
+        margin: 5rem auto 5rem;
+    }
+
+    .sappFooter2{
+        background-color: #000000;
+    }
+  
+    .mas-1:hover{
+        color: rgb(251, 176, 69);
+    }
+
+    .item{
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .textPart{
+        padding: 4%;
+        border-radius: 20px;
+    }
+
+
+    .imgPart1{
+        width: 15%;
+    }
+
+    .textPart{
+        background-color: #f6fbfe;
+        margin-bottom: 30px;
+    }
+    
+    .smallBox{
+        padding: 20px;
+    }
+
+    .text_1{
+        margin-bottom: 5px;
+    }
+
+    .cusText{
+        padding-left: 15px;
+    }
+
+    .rate {
+        float: left;
+        height: 46px;
+        padding: 0 10px;
+    }
+    
+    .rate:not(:checked) > input {
+        position:absolute;
+        top:-9999px;
+    }
+
+    .rate:not(:checked) > label {
+        float:right;
+        width:1em;
+        overflow:hidden;
+        white-space:nowrap;
+        cursor:pointer;
+        font-size:30px;
+        color:#ccc;
+    }
+
+    .rate:not(:checked) > label:before {
+        content: '★ ';
+    }
+
+    .rate > input:checked ~ label {
+        color: #ffc700;    
+    }
+
+    .rate:not(:checked) > label:hover,
+    .rate:not(:checked) > label:hover ~ label {
+        color: #deb217;  
+    }
+
+    .rate > input:checked + label:hover,
+    .rate > input:checked + label:hover ~ label,
+    .rate > input:checked ~ label:hover,
+    .rate > input:checked ~ label:hover ~ label,
+    .rate > label:hover ~ input:checked ~ label {
+        color: #c59b08;
+    }
+
+    .content_1{
+        width: 50%;
+    }
+
+    .content_2{
+        width: 50%;
+    }
+
+    .sappPriceItem1{
+        transform: scale(1.12);
+        box-shadow: 5px 5px 8px rgb(0 0 0 / 20%);
+        width: 25%;
+        margin: 2rem auto 2rem;
+    }
+
+    @media only screen and (max-width: 575px) {
+
+        .sappTitle{
+            width: 100%;
+        }
+       
+        .sappTitleButton > button{
+            width: 100%;
+        }
+
+        .navbar-brand{
+            width: 25%;
+        }
+
+        .sappVideo{
+            width: 100%;
+        }
+
+        .rwd-media{
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            left: 47%;
+            top: 42%;
+            transform: translate(-50%, 9%);
+        }
+        
+        .sappFeatureItem{
+            width: 50%;
+        }
+
+        .impressiveNumberItem{
+            width: 100%;
+
+        }
+
+        .jobOpportunityItem{
+            width: 100%;
+        }
+
+        .container-dx{
+            flex-direction: column;
+        }
+
+        .sappContentItem{
+            width: 100%;
+        }
+
+        #slide-1{
+            flex-direction: row;
+            width: 100%;
+        }
+
+        #slide-2{
+            width: 100%;
+        }
+
+        #slide-3{
+            width: 100%;
+        }
+
+        .d-flex{
+            flex-direction: column;
+        }
+
+        .content_1{
+            width: 100%;
+        }
+
+        .content_2{
+            display: none;
+        }
+
+        .imgPart1{
+            width: 50%;
+        }
+        
+        .sappPriceItem{
+            width: 100%;
+        }
+
+        .sappPriceItem1{
+            width: 100%;
+            transform: scale(1);
+        }
+
+        .inputBox{
+            width: 100%;
+        }
+
+        #footer1{
+            width: 100%;
+            margin: 1rem auto 1rem;
+        }
+
+        .sappFooter2{
+            padding-top: 3rem;
+        }
+    }
